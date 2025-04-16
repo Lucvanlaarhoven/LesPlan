@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <h1>LesPlan</h1>
+    <img src="/lesplan-logo.png" alt="LesPlan logo" />
       <Factuurgenerator />
       <Lesplanning />
       <SocialPost />
