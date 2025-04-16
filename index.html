@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LesPlan – Dé digitale assistent voor rijscholen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f3f4f6;
+      color: #1f2937;
+    }
+    header {
+      background: white;
+      padding: 24px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #2563eb;
+      margin: 0;
+    }
+    nav a {
+      margin-left: 24px;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: #2563eb;
+      color: white;
+      padding: 80px 24px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    .hero button {
+      background: white;
+      color: #2563eb;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .features {
+      max-width: 960px;
+      margin: 60px auto;
+      padding: 0 24px;
+    }
+    .features h3 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 40px;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    .feature {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .feature h4 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+      color: #2563eb;
+    }
+    .feature p {
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
+    .cta {
+      background-color: #2563eb;
+      color: white;
+      text-align: center;
+      padding: 60px 24px;
+    }
+    .cta h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .cta p {
+      font-size: 1.15rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LesPlan</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="tools.html">Tools</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Dé digitale assistent voor rijscholen</h2>
+    <p>Automatiseer je administratie, win tijd terug en werk slimmer met LesPlan.</p>
+    <button onclick="document.location.href='tools.html'">Probeer de demo</button>
+  </section>
+
+  <section class="features">
+    <h3>Wat LesPlan voor jou uit handen neemt</h3>
+    <div class="feature-grid">
+      <div class="feature"><h4>Lesplanning</h4><p>Plan eenvoudig lessen zonder omslachtig werk, met automatische herinneringen.</p></div>
+      <div class="feature"><h4>Facturatie</h4><p>Genereer automatisch foutloze facturen en verstuur ze met één klik.</p></div>
+      <div class="feature"><h4>Social media</h4><p>Laat LesPlan automatisch berichten maken zodra een leerling slaagt.</p></div>
+      <div class="feature"><h4>Reviews</h4><p>Laat LesPlan automatisch reviewverzoeken versturen na afronding van de opleiding.</p></div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h3>Waarom LesPlan?</h3>
+    <p>LesPlan maakt jouw werk als rijinstructeur simpeler. Met slimme automatisering, overzichtelijke dashboards en snelle communicatie, bespaar je tijd en houd je focus op wat écht belangrijk is: jouw leerlingen.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 LesPlan. Alle rechten voorbehouden.
+  </footer>
+</body>
+</html>
